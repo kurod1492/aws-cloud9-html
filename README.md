@@ -18,13 +18,15 @@ Cloud9 のメニューバーの「File」をクリックすると「New File」�
         </body>
     </html>
 
-記述できたら保存します。
+記述できたら保存します。メニューバーの File から Save をクリックします。
 
-メニューバーの File から Save をクリックします。
 Filename という欄にファイル名を入力します。ここでは index.html とします。
+
 保存場所を決めます。html-sample というフォルダを作って保存することにします。
 Folder という欄に「/html-sample」と入力します。
+
 Save をクリックします。
+
 左側のディレクトリツリーに「html-sample」というディレクトリが追加され、
 その中に index.html というファイルが作成されることを確認します。
 
@@ -60,7 +62,7 @@ default.css をダブルクリックして開きます。
 
 index.html に default.css を参照する記述を追記します。
 
-index.html を開き、<meta charset="UTF-8"> と <title>HTMLサンプル</title> の間に以下の行を挿入します。
+index.html を開き、「<meta charset="UTF-8">」 と 「<title>HTMLサンプル</title>」 の間に以下の行を挿入します。
 
     <link rel="stylesheet" type="text/css" href="default.css">
 
