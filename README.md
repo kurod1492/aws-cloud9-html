@@ -6,17 +6,17 @@ Cloud9 のメニューバーの「File」をクリックすると「New File」�
 「Untitled1」というタブが開きます(数字は新規ファイルを開いている数によって変わる場合があります)。
 サンプルとして、以下の HTML コードを記述します。
 
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>HTMLサンプル</title>
-    </head>
-    <body>
-        <h1>HTMLサンプル</h1>
-        <p>HTMLのサンプルです。</p>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="UTF-8">
+            <title>HTMLサンプル</title>
+        </head>
+        <body>
+            <h1>HTMLサンプル</h1>
+            <p>HTMLのサンプルです。</p>
+        </body>
+    </html>
 
 記述できたら保存します。
 
