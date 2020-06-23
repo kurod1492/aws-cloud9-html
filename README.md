@@ -13,7 +13,6 @@ Cloud9 のメニューバーの「File」をクリックすると「New File」�
             <title>HTMLサンプル</title>
         </head>
         <body>
-            <h1>HTMLサンプル</h1>
             <p>HTMLのサンプルです。</p>
         </body>
     </html>
@@ -38,9 +37,24 @@ Cloud9 には、作成した HTML ファイルをプレビューする機能が�
 
 index.html の内容を更新したときは、index.html の内容が表示されているタブの左上に Refresh というボタンがあるのでそれをクリックします。
 
-試しに、`<body>` と `<p>HTMLのサンプルです。</p>` の間に `<h1>HTMLサンプル</h1>` という行を挿入して保存します。
+試しに、`<body>` と `<p>HTMLのサンプルです。</p>` の間に `<h1>HTMLサンプル</h1>` という行を挿入してみます。以下のようになります。
 
-Refresh をクリックすると index.html を表示内容が更新されます。
+    <!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="UTF-8">
+            <title>HTMLサンプル</title>
+        </head>
+        <body>
+            <h1>HTMLサンプル</h1>
+            <p>HTMLのサンプルです。</p>
+        </body>
+    </html>
+
+挿入できたら保存します。    
+
+Refresh をクリックすると index.html の内容が更新されます。
+「HTMLサンプル」という見出しが追加されていればうまくいっています。
 
 ## CSS の作成
 
@@ -67,6 +81,22 @@ index.html を開き、`<meta charset="UTF-8">` と `<title>HTMLサンプル</ti
 
     <link rel="stylesheet" type="text/css" href="default.css">
 
+挿入した後の index.html は以下のようになります。
+
+    <!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="default.css">
+            <title>HTMLサンプル</title>
+        </head>
+        <body>
+            <h1>HTMLサンプル</h1>
+            <p>HTMLのサンプルです。</p>
+        </body>
+    </html>
+
 挿入したら保存します。
-保存したら index.html を表示しているタブの Refresh をクリックします。
+
+Refresh をクリックすると index.html の内容が更新されます。
 「HTMLのサンプルです。」の文字色が青に変わったらうまくいっています。
