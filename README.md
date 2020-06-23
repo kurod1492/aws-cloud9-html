@@ -38,7 +38,8 @@ Cloud9 には、作成した HTML ファイルをプレビューする機能が�
 
 index.html の内容を更新したときは、index.html の内容が表示されているタブの左上に Refresh というボタンがあるのでそれをクリックします。
 
-試しに、「<body>」 と 「<p>HTMLのサンプルです。</p>」 の間に「<h1>HTMLサンプル</h1>」という行を挿入して保存します。
+試しに、`<body>` と `<p>HTMLのサンプルです。</p>` の間に `<h1>HTMLサンプル</h1>` という行を挿入して保存します。
+
 Refresh をクリックすると index.html を表示内容が更新されます。
 
 ## CSS の作成
@@ -62,7 +63,7 @@ default.css をダブルクリックして開きます。
 
 index.html に default.css を参照する記述を追記します。
 
-index.html を開き、「<meta charset="UTF-8">」 と 「<title>HTMLサンプル</title>」 の間に以下の行を挿入します。
+index.html を開き、`<meta charset="UTF-8">` と `<title>HTMLサンプル</title>` の間に以下の行を挿入します。
 
     <link rel="stylesheet" type="text/css" href="default.css">
 
